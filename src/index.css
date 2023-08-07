@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.badge-alive {
+  @apply bg-green-600 text-white font-semibold;
+}
+.badge-dead {
+  @apply bg-red-600 text-white font-semibold;
+}
+.badge-unknown {
+  @apply bg-slate-400 text-black font-semibold;
+}
